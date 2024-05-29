@@ -1,0 +1,45 @@
+
+body{
+  text-align: center;
+  background-image: url("img/bg_light.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-top: 60px;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color:white;
+    
+}
+.stopwatch h2{
+  margin-top:70px;
+  font-size: 52px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 300; 
+  color:white;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img{
+    width: 50px;
+    margin: 0 15px;
+    cursor: pointer; 
+}
+
+.buttons img:hover {
+  filter: brightness(1.3);
+}
+
+.small-img {
+  width: 45px; /* set desired width */
+  height: 45px; /* maintain aspect ratio */
+}
